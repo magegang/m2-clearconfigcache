@@ -1,0 +1,24 @@
+{
+    "name": "magegang/module-clearconfigcache",
+    "description": "",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magegang",
+            "email": "hi@magegang.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magegang\\ClearConfigCache\\": ""
+        }
+    }
+}
