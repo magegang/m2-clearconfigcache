@@ -24,6 +24,10 @@ class Cache
     ) {
     }
 
+    /**
+     * @param array $types
+     * @return void
+     */
     public function clean(array $types): void
     {
         foreach ($types as $type) {
